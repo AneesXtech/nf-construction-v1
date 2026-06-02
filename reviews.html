@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Read NF Construction LLC client reviews from builders, developers, and project partners who trust our construction team for quality, safety, and dependable execution.">
+    <meta name="keywords"
+        content="construction reviews, client testimonials, builder reviews, construction testimonials, NF Construction LLC reviews, project feedback">
+    <meta name="focus-keyword" content="NF Construction reviews">
+    <meta name="author" content="NF Construction LLC">
+    <meta property="og:title" content="Reviews | Client Testimonials | NF Construction LLC">
+    <meta property="og:description"
+        content="Read NF Construction LLC client reviews from builders, developers, and project partners who trust our construction team for quality, safety, and dependable execution.">
+    <meta property="og:image" content="assets/images/02-cta-background.webp">
+    <meta property="og:url" content="https://www.nfconstruction.com/reviews">
+    <link rel="icon" href="Contruction logo black.png" type="image/png">
+    <title>Reviews | Client Testimonials | NF Construction LLC</title>
+
+    <link href="https://fonts.cdnfonts.com/css/the-bold-font" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/pages.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+</head>
+
+<body class="reviews-page">
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo-container" aria-label="NF Construction LLC Home">
+                <img src="Contruction logo black.png" alt="NF Construction LLC" class="brand-logo-img">
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="index.html#hero" class="nav-link">Home</a>
+                <a href="index.html#about" class="nav-link">Who We Are</a>
+                <a href="what-we-do.html" class="nav-link">What We Do</a>
+                <a href="index.html#solutions" class="nav-link">Our Projects</a>
+                <a href="reviews.html" class="nav-link active">Reviews</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="contact-us.html" class="btn-pre-footer btn-header">
+                    <span class="btn-text">Get a Quote</span>
+                    <span class="btn-arrow">
+                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.453124 8.3832L0.453124 6.58908L11.2178 6.58908L6.28398 1.65528L7.5578 0.38146L14.6625 7.48614L7.55781 14.5908L6.28399 13.317L11.2178 8.38319L0.453124 8.3832Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </span>
+                </a>
+
+                <button class="hamburger-menu" id="hamburgerBtn" aria-label="Toggle Menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay" id="mobileNav">
+        <nav class="mobile-nav-links">
+            <a href="index.html#hero" class="mobile-link">Home</a>
+            <a href="index.html#about" class="mobile-link">Who We Are</a>
+            <a href="what-we-do.html" class="mobile-link">What We Do</a>
+            <a href="index.html#solutions" class="mobile-link">Our Projects</a>
+            <a href="reviews.html" class="mobile-link">Reviews</a>
+            <a href="contact-us.html" class="btn-pre-footer mt-8">
+                <span class="btn-text">Get a Quote</span>
+                <span class="btn-arrow">
+                    <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.453124 8.3832L0.453124 6.58908L11.2178 6.58908L6.28398 1.65528L7.5578 0.38146L14.6625 7.48614L7.55781 14.5908L6.28399 13.317L11.2178 8.38319L0.453124 8.3832Z"
+                            fill="currentColor"></path>
+                    </svg>
+                </span>
+            </a>
+        </nav>
+    </div>
+
+    <main>
+        <section class="reviews-hero" id="hero">
+            <div class="reviews-hero-bg" style="background-image: url('assets/01-hero-what-we-do.webp');"></div>
+            <div class="reviews-hero-overlay"></div>
+            <div class="container reviews-hero-content">
+                <div class="breadcrumb">Home / Reviews</div>
+                <h1 class="font-heading">Trusted by Builders Across Projects</h1>
+                <p class="reviews-hero-copy">Real feedback from clients who value our quality, safety, and dependable execution.</p>
+                <a href="contact-us.html" class="btn-pre-footer">
+                    <span class="btn-text">Get a Quote</span>
+                    <span class="btn-arrow">
+                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.453124 8.3832L0.453124 6.58908L11.2178 6.58908L6.28398 1.65528L7.5578 0.38146L14.6625 7.48614L7.55781 14.5908L6.28399 13.317L11.2178 8.38319L0.453124 8.3832Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <section class="reviews-stats">
+            <div class="container">
+                <div class="reviews-stats-head">
+                    <p class="reviews-stats-kicker">Performance Snapshot</p>
+                    <h2 class="font-heading">Trusted results, built in the field</h2>
+                    <p>Measured delivery across quality, schedule focus, and safety-first execution.</p>
+                </div>
+                <div class="reviews-stats-grid">
+                    <div class="reviews-stat-card">
+                        <h2 class="font-heading">5.0</h2>
+                        <p>Average Rating</p>
+                    </div>
+                    <div class="reviews-stat-card">
+                        <h2 class="font-heading">50+</h2>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="reviews-stat-card">
+                        <h2 class="font-heading">100%</h2>
+                        <p>Quality Focus</p>
+                    </div>
+                    <div class="reviews-stat-card">
+                        <h2 class="font-heading">24/7</h2>
+                        <p>Safety Mindset</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-grid-section">
+            <div class="container">
+                <div class="reviews-grid" id="reviewsGrid">
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">C</div>
+                            <div>
+                                <h3 class="review-name">Chris Owens</h3>
+                                <p class="review-role">Frontline Adjusters</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>NF Construction delivered exactly what was promised. Communication stayed clear, timelines were respected, and site coordination remained strong from mobilization to handoff.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">A</div>
+                            <div>
+                                <h3 class="review-name">Alicia Grant</h3>
+                                <p class="review-role">Grant Developments</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>The foundation work was handled with care, safety, and efficiency. Their team stayed professional throughout every phase and made coordination simple.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">D</div>
+                            <div>
+                                <h3 class="review-name">Daniel Brooks</h3>
+                                <p class="review-role">Brooks Build Co.</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>The framing quality was excellent, and the team showed strong attention to detail. NF Construction is a reliable partner for structural and site work.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">M</div>
+                            <div>
+                                <h3 class="review-name">Melissa Hart</h3>
+                                <p class="review-role">Project Director, Westland</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>Their team delivered consistent results with strong field leadership. The work stayed organized, clean, and focused on quality from start to finish.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">R</div>
+                            <div>
+                                <h3 class="review-name">Ryan Patel</h3>
+                                <p class="review-role">Senior PM, Ironbrook</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>What stood out most was proactive communication. Potential issues were identified early and resolved quickly before they affected schedule or budget.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">L</div>
+                            <div>
+                                <h3 class="review-name">Laura Thompson</h3>
+                                <p class="review-role">Thompson Commercial</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>From site work to closeout, the NF Construction team was organized, responsive, and committed to safety. The finished work exceeded expectations.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">J</div>
+                            <div>
+                                <h3 class="review-name">James Miller</h3>
+                                <p class="review-role">Miller Contractors</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>Their site preparation and coordination were handled well. They worked smoothly with our trades and supported the build with dependable field execution.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">S</div>
+                            <div>
+                                <h3 class="review-name">Sarah Kim</h3>
+                                <p class="review-role">Kim Architecture Group</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>NF Construction brought a solutions-focused approach to the field. Their team was responsive, easy to coordinate with, and helped keep the project moving.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">M</div>
+                            <div>
+                                <h3 class="review-name">Michael Reed</h3>
+                                <p class="review-role">Reed Construction Mgmt.</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>The project was well managed from start to finish. Documentation, updates, and communication were clear, and the team stayed focused on quality.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">N</div>
+                            <div>
+                                <h3 class="review-name">Nora Evans</h3>
+                                <p class="review-role">Evans Development</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>NF Construction kept communication clear and maintained reliable coordination across trades, helping us keep the schedule stable and predictable.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">E</div>
+                            <div>
+                                <h3 class="review-name">Eric Lawson</h3>
+                                <p class="review-role">Lawson Builders</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>Their team delivered dependable field execution while maintaining quality and safety standards. Reporting stayed clear throughout the work.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">P</div>
+                            <div>
+                                <h3 class="review-name">Priya Shah</h3>
+                                <p class="review-role">Shah Commercial Group</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>From kickoff to closeout, the team was responsive and organized. They were easy to work with and helped keep the project moving efficiently.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">T</div>
+                            <div>
+                                <h3 class="review-name">Thomas Allen</h3>
+                                <p class="review-role">Allen Siteworks</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>Site preparation was handled with discipline, and field issues were solved quickly with practical communication and coordination.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">H</div>
+                            <div>
+                                <h3 class="review-name">Hannah Lee</h3>
+                                <p class="review-role">Lee Design Partners</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>Communication was excellent, and the team followed through at each milestone. We always had clear updates and dependable progress.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">G</div>
+                            <div>
+                                <h3 class="review-name">George Nolan</h3>
+                                <p class="review-role">Nolan Project Group</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>Quality remained consistent throughout the build, and deadlines were handled professionally with clear accountability from the team.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                    <article class="review-card" data-review-card>
+                        <div class="review-top">
+                            <div class="review-avatar" aria-hidden="true">K</div>
+                            <div>
+                                <h3 class="review-name">Kevin Ortiz</h3>
+                                <p class="review-role">Ortiz Construction</p>
+                            </div>
+                        </div>
+                        <p class="review-text" data-review-text>NF Construction supported framing and concrete scopes with dependable daily field coordination and a strong focus on safety and quality.</p>
+                        <button class="review-toggle" type="button" aria-expanded="false">Read More</button>
+                        <div class="review-footer">
+                            <div class="review-meta" aria-label="Google five-star review">
+                                <span class="review-google-logo" aria-hidden="true"><span class="g-blue">G</span><span class="g-red">o</span><span class="g-yellow">o</span><span class="g-blue">g</span><span class="g-green">l</span><span class="g-red">e</span></span>
+                                <span class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            </div>
+                            <div class="review-verified"><span class="review-tick" aria-hidden="true">&#10003;</span><span>Verified</span></div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="reviews-load-more-wrap">
+                    <button class="btn-pre-footer" id="loadMoreReviews" type="button">
+                        <span class="btn-text">Load More Reviews</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="pre-footer-cta" id="pre-footer">
+            <div class="pre-footer-bg">
+                <img src="assets/CTa.png"
+                    alt="Construction crane and building silhouette background for call to action section"
+                    class="cta-bg-image" loading="lazy">
+                <div class="cta-overlay"></div>
+                <div class="cta-svg-pattern">
+                    <svg viewBox="0 0 390 327" stroke="rgba(255,255,255,0.15)" stroke-width="1" fill="none">
+                        <path
+                            d="M389.653 98.0331L389.594 98.0473C389.594 146.38 356.89 183.079 308.805 183.079C302.183 183.079 295.375 182.809 288.812 181.05L287.945 180.818L288.567 181.465C301.203 194.601 308.045 212.068 308.045 230.795C308.045 259.382 294.256 283.297 270.92 300.074C247.58 316.855 214.685 326.494 176.498 326.494C129.279 326.494 85.2001 319.955 52.935 303.766C20.6857 287.584 0.25 261.771 0.25 223.183C0.25 195.862 14.0399 174.544 35.4861 159.129C56.9382 143.71 86.0432 134.206 116.626 130.538L116.649 130.046C96.1109 125.602 80.5387 118.067 70.1042 108.022C59.6751 97.9821 54.3658 85.4243 54.3658 70.8985C54.3658 49.8155 67.5641 32.1751 88.0936 19.7853C108.622 7.39596 136.451 0.279949 165.615 0.25C185.006 0.250021 203.873 5.06595 217.883 14.4265C231.887 23.7825 241.038 37.674 241.038 55.8558C241.038 67.6027 236.869 78.5188 228.827 86.4979C220.785 94.4756 208.852 99.5353 193.288 99.5353C182.652 99.5353 171.145 96.8169 162.306 90.9469C153.475 85.0828 147.307 76.0764 147.307 63.467C147.307 44.5555 161.398 32.7626 177.278 32.7626C182.957 32.7626 187.528 34.0294 190.674 36.4308C193.81 38.825 195.556 42.3667 195.556 46.986C195.556 52.8345 191.516 57.2647 187.378 61.7544L187.28 61.8601C183.207 66.2788 179.067 70.7701 179.067 76.6818C179.067 81.3009 180.749 85.1097 183.734 87.7612C186.716 90.41 190.977 91.8846 196.106 91.8846C207.087 91.8846 215.986 88.4357 222.139 82.2216C228.291 76.0077 231.674 67.0547 231.674 56.0955C231.674 31.03 208.113 12.9648 176.049 12.9648C158.472 12.9648 144.058 18.4961 134.038 28.383C124.018 38.2701 118.415 52.4896 118.415 69.8197C118.415 87.1381 123.126 101.799 131.52 112.135C139.918 122.476 151.99 128.473 166.665 128.473C174.207 128.473 180.801 125.931 188.373 123.012C189.784 122.468 191.228 121.911 192.719 121.355C202.226 117.81 213.685 114.269 230.404 114.269C248.399 114.269 260.185 117.814 272.406 121.49C272.843 121.621 273.281 121.753 273.719 121.885C286.428 125.7 299.85 129.521 321.337 129.521C337.387 129.521 350.785 124.296 360.174 115.361C369.562 106.425 374.923 93.795 374.923 79.0191C374.923 54.0191 357.83 35.6741 335.115 31.3082L334.928 31.7605C348.324 40.8559 354.876 52.7065 354.876 68.6211C354.876 89.7971 338.25 105.199 314.471 105.199C290.711 105.199 274.067 88.2869 274.067 65.8643C274.067 53.1091 278.991 42.7164 287.789 35.5078C296.545 28.3333 309.159 24.2958 324.625 24.2527V24.2824H324.875C343.994 24.2824 360.182 31.6854 371.593 44.6118C382.982 57.5147 389.627 75.9376 389.653 98.0331ZM299.491 231.394V231.29L299.461 231.26C299.437 210.945 292.303 194.474 279.598 183.079C266.874 171.668 248.589 165.37 226.327 165.37C205.598 165.37 188.905 170.834 177.389 180.27C165.869 189.71 159.549 203.109 159.549 218.928C159.549 232.831 164.202 244.506 172.404 253.182C180.605 261.857 192.338 267.519 206.476 269.428L206.623 268.958C198.649 264.898 192.781 259.847 188.905 253.646C185.03 247.445 183.134 240.077 183.134 231.364C183.134 208.934 201.764 192.269 226.837 192.269C239.37 192.269 249.654 196.57 256.805 203.758C263.957 210.947 267.99 221.04 267.99 232.652C267.99 245.912 262.5 256.824 253.349 264.426C244.194 272.031 231.362 276.332 216.673 276.332C192.732 276.332 174.78 268.353 162.809 254.674C150.834 240.989 144.819 221.569 144.819 198.642C144.819 173.594 154.208 151.311 171.417 136.141L172.023 135.607L171.221 135.706C147.294 138.633 127.553 148.049 113.793 162.952C100.032 177.855 92.2715 198.228 92.2715 223.034C92.2715 249.62 100.669 272.978 117.006 289.691C133.345 306.404 157.601 316.446 189.27 316.446C252.571 316.446 299.491 281.873 299.491 231.394Z"
+                            vector-effect="non-scaling-stroke"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="container pre-footer-content text-center">
+                <div class="pre-footer-text-wrapper">
+                    <p class="cta-subtitle">Ready to Build</p>
+                    <h2 class="cta-heading font-heading text-white">From first call to final delivery</h2>
+                    <p class="cta-description">We deliver smart, safe, and on-time results through integrated construction expertise.</p>
+                </div>
+
+                <div class="cta-button-wrapper">
+                    <a href="contact-us.html" class="btn-pre-footer">
+                        <span class="btn-text">Get a Quote</span>
+                        <span class="btn-arrow">
+                            <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.453124 8.3832L0.453124 6.58908L11.2178 6.58908L6.28398 1.65528L7.5578 0.38146L14.6625 7.48614L7.55781 14.5908L6.28399 13.317L11.2178 8.38319L0.453124 8.3832Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="turner-footer" id="siteFooter">
+        <div class="footer-top-row">
+            <div class="container footer-top-inner">
+                <a href="index.html#hero" class="footer-brand" aria-label="NF Construction Home">
+                    <img src="Contruction logo black.png" alt="NF Construction LLC" class="footer-brand-logo">
+                </a>
+
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="index.html#about" class="footer-nav-link">Who We Are</a>
+                    <a href="what-we-do.html" class="footer-nav-link">Our Services</a>
+                    <a href="reviews.html" class="footer-nav-link">Reviews</a>
+                    <a href="contact-us.html" class="footer-nav-link">Contact</a>
+                    <a href="contact-us.html" class="footer-nav-link">Request a Bid</a>
+                </nav>
+
+                <div class="footer-socials">
+                    <a href="#" class="footer-social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" /></svg></a>
+                    <a href="#" class="footer-social-icon" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" /></svg></a>
+                    <a href="#" class="footer-social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" /></svg></a>
+                    <a href="#" class="footer-social-icon" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom-row">
+            <div class="container footer-bottom-inner">
+                <div class="footer-copyright">
+                    <p>&copy; 2026 NF Construction LLC</p>
+                    <p>All rights reserved</p>
+                </div>
+
+                <div class="footer-statement">
+                    <p>NF Construction LLC is fully licensed and insured for commercial and residential construction projects across the state. Committed to safety, quality, and excellence in every build.</p>
+                    <a href="#" class="footer-statement-link">Privacy Policy</a>
+                </div>
+
+                <div class="footer-legal">
+                    <a href="tel:+11234567890" class="footer-legal-link">Phone: +1 123-456-7890</a>
+                    <span class="footer-legal-sep">|</span>
+                    <span class="footer-legal-link">Address: 123 Builder Lane, NY</span>
+                    <span class="footer-legal-sep">|</span>
+                    <a href="mailto:info@nfconstruction.com" class="footer-legal-link">Email: info@nfconstruction.com</a>
+                    <span class="footer-legal-sep">|</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/reviews.js"></script>
+
+    <a href="#header" class="back-to-top" aria-label="Back to Top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7" /></svg>
+    </a>
+</body>
+
+</html>
+
+

@@ -1,0 +1,29 @@
+NF Construction — What We Do Page Images
+Format: WebP, high quality
+
+01-hero-what-we-do.webp
+ALT: Construction site at sunset showcasing building framework and cranes
+
+02-cta-background.webp
+ALT: Construction crane and building silhouette background for call to action section
+
+03-service-concrete-foundations.webp
+ALT: Concrete foundation pour with rebar and workers on a commercial construction site
+
+04-service-commercial-framing.webp
+ALT: Commercial structural steel framing under golden sunset light
+
+05-service-flatwork-slabs.webp
+ALT: Concrete slab finishing and flatwork crew on a commercial building deck
+
+06-service-site-work-excavation.webp
+ALT: Excavator performing site work and excavation on a construction project
+
+07-service-interior-build-outs.webp
+ALT: Interior commercial build-out with metal studs and exposed mechanical systems
+
+08-service-general-contracting.webp
+ALT: Large commercial construction site managed by cranes and equipment
+
+09-service-project-management.webp
+ALT: Construction project managers reviewing blueprints on site at sunset
